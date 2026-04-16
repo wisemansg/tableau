@@ -1,184 +1,72 @@
-# 📊 Web Marketing Performance Dashboard Documentation
+# Data Science Job Salaries Dashboard
 
-## 1. Project Overview
-The **Web Marketing Performance Dashboard** is a Power BI reporting solution developed to evaluate the effectiveness of digital marketing activities and website engagement. It consolidates multi-channel traffic metrics, session behavior, bounce patterns, and page-level insights to support evidence-based marketing decisions.
+**A comprehensive Tableau dashboard analyzing Data Science job salaries worldwide (2020–2022)**
 
-The dashboard is intended for:
-- **Business Stakeholders** (CMO, marketing managers, content teams)
-- **Technical Teams** (BI analysts, data engineers)
-- **Non-technical roles** (executive leadership)
+![Dashboard Preview](assets/PRO1TB8.png)
 
----
+## 📋 Project Overview
 
-## 2. Business Objectives
-The dashboard was designed to answer:
+This project explores salary trends in the Data Science and related fields using a real-world dataset of 607 job records. The interactive Tableau dashboard provides deep insights into how experience level, job title, company size, location, and employment type affect salaries.
 
-- How users arrive at the website (traffic channels)
-- How effectively marketing campaigns drive engagement
-- Whether website experiences convert or disengage users
-- Which pages attract attention and from which geographies
-- What improvements can increase ROI and reduce waste in marketing spending
+**Key Focus Areas:**
+- Salary distribution by experience and job role
+- Geographic salary variations
+- Impact of company size and remote work
+- Trends across years (2020–2022)
 
----
+## 🗂️ Dataset
 
-## 3. Data Inputs & Sources
-The project uses:
-- Google Analytics Web Analytics Export
-- Campaign Attribution Tags
-- Traffic Channel Metadata
-- Device & Geo-based access patterns
+- **File:** `ds_salaries.csv`
+- **Source:** [assets/ds_salaries.csv](assets/ds_salaries.csv)
+- **Rows:** 607
+- **Time Period:** 2020–2022
+- **Key Columns:** `work_year`, `experience_level` (EN/MI/SE/EX), `job_title`, `salary_in_usd`, `employee_residence`, `company_location`, `company_size`, `remote_ratio`
 
----
+**Raw Dataset:**  
+[Download CSV](https://raw.githubusercontent.com/wisemansg/tableau/main/assets/ds_salaries.csv)
 
-## 4. Tools & Technologies Used
-| Category | Tools |
-|---|---|
-| BI Visualization | **Power BI Desktop** |
-| Data Modeling & DAX | **DAX Expressions** |
-| ETL & Cleaning | **Power Query (M)** |
-| Source Systems | **Google Analytics** |
-| Storage / Intermediate | **Excel CSV & Flat Files** |
+## 📊 Visualizations
 
----
+### Individual Sheets
 
-## 5. Key Results (From Dashboard)
+**Figure 1:**  
+![Figure 1](assets/PRO1TB1.png)
 
-The dashboard produced the following aggregated results:
+**Figure 2:**  
+![Figure 2](assets/PRO1TB2.png)
 
-### 📁 **Global Metrics Summary**
-| Metric | Result |
-|---|---|
-| **Total Sessions** | **418K** |
-| **Total Exits** | **139K** |
-| **Total Bounces** | **90K** |
-| **Average Time on Page** | **98.49 sec** |
-| **Latest Year Sessions** | **189K** |
-| **Total Unique Pageviews** | **325K** |
-| **Avg Page Load Time** | **54.39 sec** |
+**Figure 3:**  
+![Figure 3](assets/PRO1TB3.png)
 
-These values reflect user behavior over the observed reporting period.
+**Figure 4:**  
+![Figure 4](assets/PRO1TB4.png)
 
----
+**Figure 5:**  
+![Figure 5](assets/PRO1TB5.png)
 
-### 📈 **Sessions by Month (Latest Year)**  
-Monthly session volume shows consistent growth, indicating sustained acquisition momentum across marketing campaigns. Growth trends were visible from January to August in the reporting year.
+**Figure 6:**  
+![Figure 6](assets/PRO1TB6.png)
 
----
+**Figure 7:**  
+![Figure 7](assets/PRO1TB7.png)
 
-### 🖥 **Sessions & Bounces by Device**
-Breakdown indicates differences in engagement quality per device category:
+### Final Dashboard
 
-| Device Category | Sessions | Bounces |
-|---|---:|---:|
-| Desktop | 222,827 | 55,884 |
-| Mobile | 113,691 | 31,751 |
-| Tablet | 12,084 | 2,581 |
-| **Total** | **418,602** | **90,216** |
+**Figure 8:** Complete Interactive Dashboard  
+![Figure 8 - Final Dashboard](assets/PRO1TB8.png)
 
-**Observation:**
-- Desktop drives the highest volumes and engagement.
-- Tablet has lowest contribution (approx. ~3% total share).
-- Mobile has higher bounce sensitivity vs Desktop.
+## 🔍 Key Insights
 
----
+- Salaries increased significantly in 2022 compared to 2020–2021.
+- The United States dominates both the number of positions and highest salary ranges.
+- Senior (SE) and Expert (EX) roles command substantially higher compensation.
+- Large and Medium-sized companies make up the majority of the dataset.
+- Full-time employment is overwhelmingly common (96.87%).
 
-### 🌍 **Top 5 Page Titles by Unique Pageviews (Device Segmented)**
+## 🛠️ Tools & Technologies
 
-#### By Device Type
-Order based on unique pageviews contribution:
-1. Page Title 496
-2. Page Title 1827
-3. Page Title 1788
-4. Page Title 460
-5. Page Title 1783
+- **Tableau Desktop** – Data visualization and dashboard creation
+- **Data Cleaning & Preparation** – Tableau + Excel
+- **Dataset** – Public Data Science Salaries CSV
 
-**Insight:** Desktop dominates across all five top-performing content pages, reinforcing desktop as the primary engagement channel.
-
----
-
-### 🌐 **Top Geographical Viewership**
-Top markets by traffic:
-
-1. United States
-2. India
-3. France
-4. United Kingdom
-5. Switzerland
-
-U.S. market shows disproportionately higher pageview totals, suggesting business relevance or stronger marketing penetration in that region.
-
----
-
-## 6. Analytical Interpretation
-
-### Channel Behavior
-- Sessions show upward trend month-to-month
-- Bounce volume is non-proportional to session growth → indicates partial UX improvements or targeted quality traffic acquisition
-
-### Device Insights
-- Desktop → Best performance + engagement
-- Mobile → Good reach but UX may require optimization
-- Tablet → Low adoption, negligible strategic weight
-
-### Page-Level Insights
-- Content consumption is concentrated in few high-value pages → indicates candidate content for SEO & lead conversion optimization
-
-### Geo Performance
-- Heavy U.S. dominance → campaigns likely returning strong ROI in this region
-
----
-
-## 7. Business Implications
-
-The results inform strategic decisions such as:
-
-- Optimizing mobile experiences to reduce bounce rates
-- Prioritizing U.S. market & similar Tier-1 audience segments
-- Scaling campaigns on channels feeding high-performing pages
-- Allocating resources to long-performing evergreen content
-
----
-
-## 8. Recommendations (Actionable)
-
-| Category | Recommendation |
-|---|---|
-| Content | Scale high-performing pages & improve weak-performing ones |
-| SEO | Expand in geographies showing organic traction |
-| UX | Reduce load times; optimize for mobile visitors |
-| Marketing ROI | Reallocate toward high-conversion regions & devices |
-| Analytics | Integrate cost data to compute CPA, ROAS & funnel ROI |
-
----
-
-## 9. Limitations & Dependencies
-
-- Attribution uses **last click**
-- Cookie tracking constraints may undercount sessions
-- Absence of financial data limits full ROI analytics
-- Geo attribution dependent on IP + browser metadata
-
----
-
-## 10. Future Enhancements
-
-Planned improvements include:
-
-- Multi-touch attribution modeling
-- CRM integration for lead pipeline analysis
-- Automated API feeds from Google Analytics
-- Predictive traffic forecasting using ML models
-- Cost integration for ROAS/CPA evaluation
-
----
-
-## 11. Conclusion
-
-The Power BI Web Marketing Dashboard provides:
-
-- Executive-level visibility on digital performance
-- Reliable metrics for campaign & UX evaluation
-- Evidence for strategic and financial optimization
-
-It enhances decision-making capability and reduces reporting lags across marketing operations.
-
+## 📁 Repository Structure
