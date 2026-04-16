@@ -68,5 +68,3 @@ This project explores salary trends in the Data Science and related fields using
 - **Tableau Desktop** – Dashboard creation and visualization
 - **Data Preparation:** Tableau + Excel
 - **Dataset:** Public Data Science Salaries CSV
-
-## 📁 Repository Structure
