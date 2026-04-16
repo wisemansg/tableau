@@ -9,21 +9,21 @@
 This project explores salary trends in the Data Science and related fields using a real-world dataset of 607 job records. The interactive Tableau dashboard provides deep insights into how experience level, job title, company size, location, and employment type affect salaries.
 
 **Key Focus Areas:**
-- Salary distribution by experience and job role
-- Geographic salary variations
-- Impact of company size and remote work
-- Trends across years (2020–2022)
+- Salary distribution by experience level and job title
+- Geographic salary variations across countries
+- Impact of company size and employment type
+- Trends from 2020 to 2022
 
 ## 🗂️ Dataset
 
 - **File:** `ds_salaries.csv`
-- **Source:** [assets/ds_salaries.csv](assets/ds_salaries.csv)
 - **Rows:** 607
-- **Time Period:** 2020–2022
-- **Key Columns:** `work_year`, `experience_level` (EN/MI/SE/EX), `job_title`, `salary_in_usd`, `employee_residence`, `company_location`, `company_size`, `remote_ratio`
+- **Years:** 2020–2022
+- **Direct Download:**  
+  [📥 Download ds_salaries.csv](https://raw.githubusercontent.com/wisemansg/tableau/main/assets/ds_salaries.csv)
 
-**Raw Dataset:**  
-[Download CSV](https://raw.githubusercontent.com/wisemansg/tableau/main/assets/ds_salaries.csv)
+**GitHub Location:**  
+[`assets/ds_salaries.csv`](https://github.com/wisemansg/tableau/blob/main/assets/ds_salaries.csv)
 
 ## 📊 Visualizations
 
@@ -57,16 +57,16 @@ This project explores salary trends in the Data Science and related fields using
 
 ## 🔍 Key Insights
 
-- Salaries increased significantly in 2022 compared to 2020–2021.
-- The United States dominates both the number of positions and highest salary ranges.
-- Senior (SE) and Expert (EX) roles command substantially higher compensation.
-- Large and Medium-sized companies make up the majority of the dataset.
-- Full-time employment is overwhelmingly common (96.87%).
+- Salaries increased significantly in 2022 compared to previous years.
+- The United States dominates both the number of jobs and highest salary ranges.
+- Senior (SE) and Expert (EX) roles earn substantially more than Entry and Mid-level roles.
+- Large and Medium companies represent the majority of the dataset.
+- Full-time employment is dominant (96.87% of records).
 
 ## 🛠️ Tools & Technologies
 
-- **Tableau Desktop** – Data visualization and dashboard creation
-- **Data Cleaning & Preparation** – Tableau + Excel
-- **Dataset** – Public Data Science Salaries CSV
+- **Tableau Desktop** – Dashboard creation and visualization
+- **Data Preparation:** Tableau + Excel
+- **Dataset:** Public Data Science Salaries CSV
 
 ## 📁 Repository Structure
