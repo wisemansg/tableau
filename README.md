@@ -19,11 +19,12 @@ This project explores salary trends in the Data Science and related fields using
 - **File:** `ds_salaries.csv`
 - **Rows:** 607
 - **Years:** 2020–2022
-- **Direct Download:**  
-  [📥 Download ds_salaries.csv](https://raw.githubusercontent.com/wisemansg/tableau/main/assets/ds_salaries.csv)
 
-**GitHub Location:**  
-[`assets/ds_salaries.csv`](https://github.com/wisemansg/tableau/blob/main/assets/ds_salaries.csv)
+- **Direct Download:**  
+  👉 [Download ds_salaries.csv](https://raw.githubusercontent.com/wisemansg/tableau/main/assets/ds_salaries.csv)
+
+- **View on GitHub:**  
+  👉 [assets/ds_salaries.csv](https://github.com/wisemansg/tableau/blob/main/assets/ds_salaries.csv)
 
 ## 📊 Visualizations
 
